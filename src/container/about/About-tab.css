@@ -1,0 +1,85 @@
+@media only screen and (max-width: 1500px) and (min-width: 1000px){
+  .about-photo h1{
+    font-size: 36px;
+  }
+
+  .about-photo img{
+    width: 300px;
+  }
+
+  .about-me{
+    width: 57%;
+  }
+
+  .about-text h1{
+    font-size: 28px;
+  }
+
+  .about-text p{
+    font-size: 15px;
+  }
+
+  .contact-me {
+    width: 50%;
+  }
+
+  .contact-me h1{
+    font-size: 28px;
+  }
+
+  .contact-container a{
+    width:105px;
+  }
+
+  .contact-container span{
+    font-size: 28px;
+  }
+
+  .contact-container h3{
+    font-size: 15px;
+  }
+
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 768px){
+  .about-photo h1{
+    font-size: 28px;
+  }
+
+  .about-photo img{
+    width: 250px;
+  }
+
+  .about-me{
+    width: 57%;
+  }
+
+  .about-text h1{
+    font-size: 24px;
+  }
+
+  .about-text p{
+    font-size: 14px;
+  }
+
+  .contact-me {
+    width: 50%;
+  }
+
+  .contact-me h1{
+    font-size: 24px;
+  }
+
+  .contact-container a{
+    width:80px;
+  }
+
+  .contact-container span{
+    font-size: 20px;
+  }
+
+  .contact-container h3{
+    font-size: 12px;
+  }
+
+}

@@ -1,0 +1,15 @@
+@media only screen and (max-width: 481px){
+  .home-container{
+    padding-top: 10vh;
+  }
+
+  .home-container img{
+    width: 290px;
+    height: 290px;
+  }
+
+  .home-container p{
+    font-size: large;
+    width: 90%;
+  }
+}

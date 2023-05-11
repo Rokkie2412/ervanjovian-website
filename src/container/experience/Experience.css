@@ -1,0 +1,99 @@
+.experience-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  scroll-snap-align: start;
+}
+
+.experience-container h1{
+  text-align: center;
+  color: var(--textColor);
+  font-size: 36px;
+}
+
+.experience-phone-button{
+  display: none;
+}
+
+.experience-content{
+  width: 80%;
+  height: 86vh;
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.title-section{
+  text-align: center;
+  font-size: 32px;
+  color: var(--otherColor);
+  padding: 8px;
+}
+
+.education{
+  width: 40%;
+  background-color: var(--secondaryColor);
+  margin-right: 8px;
+  border-radius: 3%;
+}
+
+.experience{
+  width: 40%;
+  background-color: var(--secondaryColor);
+  margin-left: 8px;
+  border-radius: 3%;
+}
+
+.education-card{
+  background-color: var(--mainColor);
+  margin: 10px;
+  padding: 8px;
+  border-radius: 8px;
+  display: flex;
+}
+
+.education-info{
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8px;
+}
+
+.education-card h3{
+  color: var(--textColor);
+  font-size: 22px;
+}
+
+.education-card h4{
+  color: var(--otherColor);
+  
+  margin: 4px 0px;
+  font-size: 15px;
+}
+
+.education-card p{
+  color: var(--textColor);
+  font-size: 14px;
+}
+
+.education-photo{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.education-photo img{
+  width: 125px;
+  height: 125px;
+  border-radius: 100%;
+}
+
+.experience-content-phone{
+  display: none;
+}

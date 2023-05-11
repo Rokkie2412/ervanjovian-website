@@ -1,0 +1,41 @@
+@media only screen and (max-width: 768px) and (min-width: 375px){
+
+  .experience-container{
+    height: auto;
+  }
+
+  .experience-content-phone{
+    display: flex;
+  }
+
+  .experience-content{
+    display: none;
+  }
+
+  .experience-phone-button{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .experience-phone-button button{
+    padding: 12px 24px;
+    border: none;
+    font-weight: 600;
+    margin: 12px 0px 4px 0px;    
+    font-size: 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out; 
+  }
+
+  .experience-phone-button button:hover{
+    background-color: var(--otherColor);
+    color: var(--secondaryColor);
+    transform: scale(1.13);
+    border-radius: 10px;
+  }
+
+  .education-card{
+    background-color: var(--secondaryColor);
+  }
+}

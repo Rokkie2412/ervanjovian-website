@@ -1,0 +1,43 @@
+.navbar-container{
+  width: 100%;
+  position: fixed;
+  height: 10vh;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--textColor);
+  background-color: var(--mainColor);
+  scroll-snap-align: start;
+  z-index: 1;
+}
+
+.navbar-container h1{
+  font-size: 36px;
+  color: var(--textColor);
+}
+
+nav a{
+  margin: 0 2rem;
+  text-decoration: none;
+  color: var(--textColor);
+  transition: 0.2s;
+  font-size: large;
+  font-weight: 600;
+}
+
+nav a:hover{
+  color: var(--otherColor);
+  border-bottom: solid 2px;
+}
+
+header .nav-btn{
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  visibility: hidden;
+  opacity: 0;
+}
+
