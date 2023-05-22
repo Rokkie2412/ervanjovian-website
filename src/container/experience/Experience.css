@@ -47,7 +47,7 @@
 }
 
 .education-card{
-  background-color: var(--mainColor);
+  background-color: var(--secondaryColor);
   margin: 10px;
   padding: 8px;
   border-radius: 8px;

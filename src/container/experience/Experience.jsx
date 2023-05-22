@@ -6,17 +6,25 @@ import {education, experience} from './experienceItem'
 // eslint-disable-next-line react/prop-types
 const Experience = ({portoID}) => {
   const [section,setSection] = useState(true)
+  const [active,setActive] = useState('education-button')
 
-  const showNavBar = () =>{
-    setSection(!section)
+  const showEdu = () =>{
+    setSection(true)
   }
+
+  const showExp = () =>{
+    setSection(false)
+    setActive('normal-button')
+  }
+
+
 
   return (
     <div id={portoID} className='experience-container'>
       <h1>My Experience</h1>
       <div className='experience-phone-button'>
-        <button onClick={showNavBar}>Education</button>
-        <button onClick={showNavBar}>Experience</button>
+        <button className={active} onClick={showEdu}>Education</button>
+        <button onClick={showExp}>Experience</button>
       </div>
       <div className='experience-content'>
           <div className='education'>

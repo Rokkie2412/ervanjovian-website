@@ -4,7 +4,7 @@ import './Navbar.css'
 import './Navbar-phone.css'
 
 // eslint-disable-next-line react/prop-types
-const Navbar = ({home, about, porto}) => {
+const Navbar = ({home, about, porto, certif}) => {
   const navRef = useRef()
 
   const showNavBar = () =>{
@@ -17,7 +17,8 @@ const Navbar = ({home, about, porto}) => {
       <nav ref={navRef}>
         <a onClick={showNavBar} href={`#${home}`}>Home</a>
         <a onClick={showNavBar} href={`#${about}`}>About Me</a>
-        <a onClick={showNavBar} href={`#${porto}`}>Portofolio</a>
+        <a onClick={showNavBar} href={`#${porto}`}>Timeline</a>
+        <a onClick={showNavBar} href={`#${certif}`}>Certifcation</a>
         <button className='nav-btn nav-close-btn' onClick={showNavBar}>
           <FaTimes className='nav-icon'/>
         </button>

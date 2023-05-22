@@ -37,7 +37,7 @@ export const education = [
       title:"Internship Front-End Dev",
       places: "PT. Bank BTPN, Jenius Directorate",
       year:"2022 - 2023",
-      desc: "Yos Sudarso is a Catholic school, which is under the Catholic foundation of Salib Suci. Located on Mohamad Toha street number 19, Bandung.",
+      desc: "PT. Bank BTPN Tbk. adalah sebuah perusahaan yang bergerak dibidang perbankan, dan satu bank pelopor digital bank di Indonesia dengan produk mereka Jenius, yang merupakan layanan perbankan digital yang dapat diakses melalui aplikasi mobile.",
       image: Btpn
     },
     {

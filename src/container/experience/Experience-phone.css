@@ -35,7 +35,10 @@
     border-radius: 10px;
   }
 
-  .education-card{
-    background-color: var(--secondaryColor);
+  .education-button{
+    background-color: var(--otherColor);
+    color: var(--secondaryColor);
+    transform: scale(1.13);
+    border-radius: 10px;
   }
 }
