@@ -7,7 +7,7 @@ import {education, experience} from './experienceItem'
 const Experience = ({portoID}) => {
   const [section,setSection] = useState(true)
   const [active1,setActive1] = useState('active')
-  const [active2,setActive2] = useState('passiv')
+  const [active2,setActive2] = useState('passive')
 
   const showEdu = () =>{
     setSection(true)
