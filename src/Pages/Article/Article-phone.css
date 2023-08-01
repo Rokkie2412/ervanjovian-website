@@ -1,0 +1,24 @@
+@media only screen and (max-width: 481px){
+  .main-container-article{
+  width: 100%;
+  height: 100vh;
+  background-color: var(--mainColor);
+  }
+
+  .article-header{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--textColor);
+  }
+
+  .article-content-container{
+    width: 95%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}

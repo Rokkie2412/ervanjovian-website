@@ -15,7 +15,7 @@ const Home = ({homeId}) => {
       <p>Yesterday is history, Tomorrow is a mystery, but today is a gift. That is why it is called the present.</p> 
       <p>-Master Oogways🐢</p>
       <br/>
-      <a target='_blank' href='https://drive.google.com/file/d/1ZfTymi9ekGO22g1-7uQl5Oog-Pgw2MuP/view?usp=sharing' rel="noreferrer">Download CV</a>
+      <a target='_blank' href='https://drive.google.com/file/d/1OwBcwWnWDzqe1pHInBSzzZT9qGAiioo9/view?usp=sharing' rel="noreferrer">Download CV</a>
     </div>
   )
 }

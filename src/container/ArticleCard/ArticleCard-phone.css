@@ -1,0 +1,35 @@
+@media only screen and (max-width: 481px){
+  .article-card-container{
+    width: 185px;
+    height: 20vh;
+    padding: 14px 10px;
+    background-color: var(--mainColor);
+    display: flex;
+    color: var(--textColor);
+    background-color: var(--secondaryColor);
+    margin: 5px 3.5px;
+  }
+
+  .article-card-container h1{
+    color: var(--otherColor);
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .article-card-container h2{
+    color: var(--textColor);
+    font-size: 8px;
+  }
+
+  .article-card-container h5{
+    color: var(--textColor);
+    font-size: 6px;
+  }
+
+  .article-card-container p{
+    color: var(--textColor);
+    font-size: 8px;
+    margin-top: 10px;
+    text-align: justify;
+  }
+}

@@ -1,9 +1,9 @@
-import Home from './container/home/home'
-import Navbar from './container/navbar/Navbar'
-import About from './container/about/About'
-import Experience from './container/experience/Experience'
-import Footer from './container/footer/Footer'
-import Certification from './container/certificate/Certification'
+import Home from '../../container/home/home'
+import Navbar from '../../container/navbar/Navbar'
+import About from '../../container/about/About'
+import Experience from '../../container/experience/Experience'
+import Footer from '../../container/footer/Footer'
+import Certification from '../../container/certificate/Certification'
 
 const App = () => {
   const homeID = 'home'

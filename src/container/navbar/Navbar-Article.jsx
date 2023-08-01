@@ -16,11 +16,10 @@ const Navbar = ({home, about, porto, certif}) => {
     <header className='navbar-container'>
       <h1>Ervan.</h1>
       <nav ref={navRef}>
-        <a className='link-nav' onClick={showNavBar} href={`#${home}`}>Home</a>
-        <a className='link-nav' onClick={showNavBar} href={`#${about}`}>About Me</a>
-        <a className='link-nav' onClick={showNavBar} href={`#${porto}`}>Timeline</a>
-        <a className='link-nav' onClick={showNavBar} href={`#${certif}`}>Certifcation</a>
-        <Link className='link-nav' to='/articles' onClick={showNavBar}>Articles</Link>
+        <Link className='link-nav' onClick={showNavBar} to={`${home}`}>Home</Link>
+        <Link className='link-nav' onClick={showNavBar} to={`${about}`}>About Me</Link>
+        <Link className='link-nav' onClick={showNavBar} to={`${porto}`}>Timeline</Link>
+        <Link className='link-nav' onClick={showNavBar} to={`${certif}`}>Certifcation</Link>
         <button className='nav-btn nav-close-btn' onClick={showNavBar}>
           <FaTimes className='nav-icon'/>
         </button>

@@ -3,7 +3,6 @@ import SmpYos from '../../assets/SMP Yos.jpg'
 import Kalam from '../../assets/kalam-kudus.jpg'
 import Binus from '../../assets/binus.jpg'
 import Btpn from '../../assets/btpn.jpeg'
-import Search from '../../assets/Search.jpeg'
 
 export const education = [
     {
@@ -35,16 +34,16 @@ export const education = [
   export const experience = [
     {
       title:"Internship Front-End Dev",
-      places: "PT. Bank BTPN, Jenius Directorate",
+      places: "PT. Bank BTPN, Digital Banking Directorate",
       year:"2022 - 2023",
       desc: "PT. Bank BTPN Tbk. adalah sebuah perusahaan yang bergerak dibidang perbankan, dan satu bank pelopor digital bank di Indonesia dengan produk mereka Jenius, yang merupakan layanan perbankan digital yang dapat diakses melalui aplikasi mobile.",
       image: Btpn
     },
     {
-      title: "I'm Working On It",
-      places: "Still Searching...",
-      year: "Present",
-      desc: "Finding a job is hard, but I'm working on it.",
-      image: Search
+      title: "Front-End Dev",
+      places: "PT. Bank BTPN, Digital Banking Directorate",
+      year: "2023 - Present",
+      desc: "PT. Bank BTPN Tbk. adalah sebuah perusahaan yang bergerak dibidang perbankan, dan satu bank pelopor digital bank di Indonesia dengan produk mereka Jenius, yang merupakan layanan perbankan digital yang dapat diakses melalui aplikasi mobile.",
+      image: Btpn
     }
   ]
