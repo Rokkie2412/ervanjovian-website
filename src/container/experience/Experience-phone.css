@@ -28,17 +28,30 @@
     transition: all 0.3s ease-in-out; 
   }
 
-  .experience-phone-button button:hover{
+  /* .experience-phone-button button:hover{
+    background-color: var(--otherColor);
+    color: var(--secondaryColor);
+    transform: scale(1.13);
+    border-radius: 10px;
+  } */
+
+  .education-button{
     background-color: var(--otherColor);
     color: var(--secondaryColor);
     transform: scale(1.13);
     border-radius: 10px;
   }
 
-  .education-button{
+  .active{
     background-color: var(--otherColor);
     color: var(--secondaryColor);
     transform: scale(1.13);
+    border-radius: 10px;
+  }
+
+  .passive{
+    background-color: var(--textColor);
+    color: var(--secondaryColor);
     border-radius: 10px;
   }
 }

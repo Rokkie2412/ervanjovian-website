@@ -6,15 +6,29 @@ import {education, experience} from './experienceItem'
 // eslint-disable-next-line react/prop-types
 const Experience = ({portoID}) => {
   const [section,setSection] = useState(true)
-  const [active,setActive] = useState('education-button')
+  const [active1,setActive1] = useState('active')
+  const [active2,setActive2] = useState('passiv')
 
   const showEdu = () =>{
     setSection(true)
+    if (active1 === "active") {
+      setActive1("active")
+      setActive2("passive")
+    }else if(active1 === "passive"){
+      setActive1("active")
+      setActive2("passive")
+    }
   }
 
   const showExp = () =>{
     setSection(false)
-    setActive('normal-button')
+    if (active2 === "active") {
+      setActive2("active")
+      setActive1("passive")
+    }else if (active2 === "passive") {
+      setActive2("active")
+      setActive1("passive")
+    }
   }
 
 
@@ -23,8 +37,8 @@ const Experience = ({portoID}) => {
     <div id={portoID} className='experience-container'>
       <h1>My Experience</h1>
       <div className='experience-phone-button'>
-        <button className={active} onClick={showEdu}>Education</button>
-        <button onClick={showExp}>Experience</button>
+        <button className={active1} onClick={showEdu}>Education</button>
+        <button className={active2} onClick={showExp}>Experience</button>
       </div>
       <div className='experience-content'>
           <div className='education'>
