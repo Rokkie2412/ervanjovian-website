@@ -18,6 +18,7 @@ const App = () => {
       <About aboutId={aboutID}/>
       <br/>
       <Experience portoID={portoID}/>
+      <br/>/
       <Certification idCertif={certifID}/>
       <br/>
       <Footer/>

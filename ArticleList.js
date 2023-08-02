@@ -15,9 +15,9 @@ export const articleList = [
   },
   {
     id: 2,
-    name: 'jumper-psu-content',
-    title: 'Mengakses LED RGB dengan Arduino Uno di Tinkercad',
-    content: 'Cara-cara sederhana membuat jumper untuk power supply komputer, teknik ini bisa dilakukan untuk menghidupkan power supply komputer tanpa harus menggunakan motherboard.',
-    date: '22 Maret 2022',
+    name: 'ai-ancaman-atau-perkembangan',
+    title: 'Artificial Intelligence: Penemuan atau Ancaman?',
+    content: 'AI adalah teknologi yang berkembang pesat dan memiliki potensi untuk membawa perubahan besar dalam cara kita hidup, bekerja, dan berinteraksi dengan teknologi.',
+    date: '15 Juli 2020',
   }
 ]

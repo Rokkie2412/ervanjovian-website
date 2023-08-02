@@ -1,11 +1,17 @@
 import Footer from '../../container/footer/Footer'
-import Navbar from '../../container/navbar/Navbar'
+import Navbar from '../../container/navbar/Navbar-Article'
 import '../articleFormat.css'
 
 const Jumper = () => {
+
+  const homeNav = '/'
+  const aboutNav = '/#about'
+  const portoNav = '/#porto'
+  const certifNav = '/#certif'
+
   return (
     <div className='article-main-format'>
-        <Navbar/>
+        <Navbar home={homeNav} porto={portoNav} certif={certifNav} about={aboutNav}/>
         <span className='article-format-header'>
           <h1>Tutorial Cara Jumper pada Power Supply</h1>
         </span>

@@ -5,7 +5,7 @@ import './home-phone.css'
 
 // eslint-disable-next-line react/prop-types
 const Home = ({homeId}) => {
-  const dev = "Junior Developer </>"
+  const dev = "Frontend Developer </>"
   return (
     <div id={homeId} className='home-container'>
       <img src={Avatar}/>
