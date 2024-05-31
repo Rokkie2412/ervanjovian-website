@@ -39,7 +39,8 @@ const About = ({aboutId}) => {
       <div className='about-me'>
         <section className='about-text'>
           <h1>My Story...</h1>
-          <p>Hello, I'm, junior developer from Bandung, Indonesia. I have experience in frontend developer and web design. Also I'm good at team work, and I like to know more about the world 🌍.</p>
+          <br/>
+          <p>Hello, I'm a Bandung-based Frontend Developer with a passion for crafting beautiful and interactive user interfaces using React Native, React, and Next. I thrive in collaborative environments and constantly seek out new challenges to expand my skillset. My curiosity about the world fuels my desire to learn and innovate🌍.</p>
         </section>
         <section className='contact-me'>
           <h1>Contact Me...</h1>

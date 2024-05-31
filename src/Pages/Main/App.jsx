@@ -18,7 +18,7 @@ const App = () => {
       <About aboutId={aboutID}/>
       <br/>
       <Experience portoID={portoID}/>
-      <br/>/
+      <br/>
       <Certification idCertif={certifID}/>
       <br/>
       <Footer/>

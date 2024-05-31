@@ -12,7 +12,8 @@ const Home = ({homeId}) => {
       <h1>Ervan Jovian</h1>
       <h2>{dev}</h2>
       <br/>
-      <p>Yesterday is history, Tomorrow is a mystery, but today is a gift. That is why it is called the present.</p> 
+      <p>Yesterday is history, Tomorrow is a mystery, but today is a gift. That is why it is called the present🎁.</p> 
+      <br/>
       <p>-Master Oogways🐢</p>
       <br/>
       <a target='_blank' href='https://drive.google.com/file/d/1OwBcwWnWDzqe1pHInBSzzZT9qGAiioo9/view?usp=sharing' rel="noreferrer">Download CV</a>

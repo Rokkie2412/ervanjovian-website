@@ -3,7 +3,6 @@ import {BsMouseFill} from 'react-icons/bs'
 import './Certifcation.css'
 import './Certification-phone.css'
 
-// eslint-disable-next-line react/prop-types
 const Certification = ({idCertif}) => {
   return (
     <div id={idCertif} className='certifcation-container'>
