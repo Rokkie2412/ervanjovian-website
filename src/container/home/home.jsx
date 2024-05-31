@@ -16,7 +16,7 @@ const Home = ({homeId}) => {
       <br/>
       <p>-Master Oogways🐢</p>
       <br/>
-      <a target='_blank' href='https://drive.google.com/file/d/1OwBcwWnWDzqe1pHInBSzzZT9qGAiioo9/view?usp=sharing' rel="noreferrer">Download CV</a>
+      <a target='_blank' href='https://drive.google.com/file/d/1tUUMled7aZJSDJxX2yXFyTI_30YpfLAL/view?usp=sharing' rel="noreferrer">Download CV</a>
     </div>
   )
 }

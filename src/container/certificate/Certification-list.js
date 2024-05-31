@@ -6,45 +6,51 @@ import javascript from '../../assets/Certificate/Sertifikat Java Script_page-000
 import seo from '../../assets/Certificate/Sertifikat SEO Skill Academic.jpg'
 import python from '../../assets/Certificate/Sertifikat Python3 Solo Learn_page-0001.jpg'
 import C from '../../assets/Certificate/Sertifikat Solo Learn C_page-0001.jpg'
+import Lulus from '../../assets/Certificate/Sertifikat Kelulusan.png'
 
 export const CertificationList = [
+  // {
+  //   id: 1,
+  //   name: "Sertifikat Kelulusan Bina Nusantara",
+  //   image: Lulus,
+  // },
   {
-    id: 1,
+    id: 2,
     name: 'Internship PT. Bank BTPN',
     image: intern,
   },
   {
-    id: 2,
+    id: 3,
     name: 'Dev-Gym Next Level',
     image: devGym,
   },
   {
-    id: 3,
+    id: 4,
     name: 'Belajar Toefl',
     image: toefl,
   },
   {
-    id: 4,
+    id: 5,
     name: 'HTML',
     image: html,
   },
   {
-    id: 5,
+    id: 6,
     name: 'Javascript',
     image: javascript,
   },
   {
-    id: 6,
+    id: 7,
     name: 'SEO',
     image: seo,
   },
   {
-    id: 7,
+    id: 8,
     name: 'Python',
     image: python,
   },
   {
-    id: 8,
+    id: 9,
     name: 'C',
     image: C,
   },
